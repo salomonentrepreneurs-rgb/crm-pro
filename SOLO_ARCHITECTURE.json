@@ -1,0 +1,52 @@
+{
+  "name": "CRM Pro",
+  "description": "A professional AI-powered CRM platform with lead management, deal pipeline, AI scoring, team collaboration, and analytics dashboards",
+  "brand": "CRM Pro",
+  "primary_color": "#6366f1",
+  "type": "both",
+  "platforms": [
+    "web",
+    "ios",
+    "android"
+  ],
+  "features": [
+    "payments",
+    "analytics",
+    "reports",
+    "team"
+  ],
+  "include_crm": true,
+  "stack": {
+    "frontend": "React 19 + TypeScript + Tailwind CSS + shadcn/ui",
+    "backend": "FastAPI (Python) / Next.js API Routes",
+    "database": "PostgreSQL + SQLAlchemy ORM",
+    "auth": "JWT + OAuth2 (Google, GitHub, Magic Link)",
+    "mobile": "React Native + Expo SDK 54",
+    "deploy": "Docker + GitHub Actions CI/CD"
+  },
+  "generated_at": "2026-08-03T02:44:43.365320",
+  "build_id": "20260803_024443",
+  "crm": {
+    "version": "2.0",
+    "modules": [
+      "lead_management",
+      "contact_management",
+      "deal_pipeline",
+      "task_tracking",
+      "email_integration",
+      "analytics_dashboard",
+      "customer_portal",
+      "invoice_generation",
+      "team_collaboration",
+      "ai_scoring"
+    ],
+    "ai_features": [
+      "lead_scoring_ai",
+      "sentiment_analysis",
+      "auto_followup_scheduler",
+      "churn_prediction",
+      "deal_win_probability",
+      "smart_reply_suggestions"
+    ]
+  }
+}
