@@ -32,7 +32,7 @@ export default function App() {
       <NavigationContainer>
         <Tab.Navigator>
           <Tab.Screen name="Home" component={HomeScreen} />
-          {INCLUDE_CRM ? '<Tab.Screen name="CRM" component={CrmScreen} />' : ''}
+          <Tab.Screen name="CRM" component={CrmScreen} />
           <Tab.Screen name="Settings" component={() => <View style={styles.container}><Text>Settings</Text></View>} />
         </Tab.Navigator>
       </NavigationContainer>
