@@ -12,7 +12,7 @@ export default function Home() {
           </div>
           <nav className="flex items-center gap-6">
             <Link href="/" className="text-sm font-medium hover:text-primary">Home</Link>
-            {INCLUDE_CRM ? '<Link href="/crm" className="text-sm font-medium hover:text-primary">CRM</Link>' : ''}
+            <Link href="/crm" className="text-sm font-medium hover:text-primary">CRM</Link>
             <Link href="/dashboard" className="text-sm font-medium hover:text-primary">Dashboard</Link>
             <Link href="/login" className="text-sm font-medium hover:text-primary">Sign In</Link>
           </nav>
